@@ -27,7 +27,7 @@ LABEL org.opencontainers.image.title="CinePro Core" \
       org.opencontainers.image.created="${CREATED}" \
       org.opencontainers.image.source="${SOURCE}"
 
-ARG NODE_ENV=development
+ARG NODE_ENV=production
 ARG PORT=3000
 ARG CACHE_TYPE=memory
 
